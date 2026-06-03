@@ -1,7 +1,0 @@
-steps:
-- script: |
-   echo Hello from Self Hosted Agent
-   hostname
-   whoami
-   ipconfig
-  displayName: 'Command Line Script GIT to ADO'
