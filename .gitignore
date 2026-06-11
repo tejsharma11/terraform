@@ -1,0 +1,27 @@
+# Ignore executable files
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.exe
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Lock file (optional but usually kept)
+# terraform.lock.hcl (keep if using teams)
+
+# OS files
+.DS_Store
+Thumbs.db
