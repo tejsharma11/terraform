@@ -1,8 +1,8 @@
 trigger:
 - main
 
-pool:
-  name: self-hosted    # apne self-hosted agent pool ka naam
+pool: agentme
+
 
 steps:
 
